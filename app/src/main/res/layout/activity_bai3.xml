@@ -10,26 +10,35 @@
         android:id="@+id/btn_exit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Thoát chương trình"
         android:backgroundTint="#E91E63"
-        app:layout_constraintTop_toBottomOf="@+id/btn_divide"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gcd"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/btn_divide"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Thương 2 số"
         app:layout_constraintTop_toBottomOf="@+id/btn_multiply"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_gcd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ước số chung lớn nhất"
+        app:layout_constraintTop_toBottomOf="@+id/btn_divide"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/btn_multiply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Tích 2 số"
         app:layout_constraintTop_toBottomOf="@+id/btn_subtract"
         tools:layout_editor_absoluteX="0dp" />
@@ -38,7 +47,7 @@
         android:id="@+id/btn_subtract"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Hiệu 2 số"
         app:layout_constraintTop_toBottomOf="@+id/btn_sum"
         tools:layout_editor_absoluteX="0dp" />
@@ -110,7 +119,7 @@
         android:id="@+id/btn_sum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Tổng 2 số"
         android:onClick="getSum"
         android:visibility="visible"
