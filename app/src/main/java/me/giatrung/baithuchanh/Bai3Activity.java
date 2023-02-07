@@ -52,9 +52,7 @@ public class Bai3Activity extends AppCompatActivity implements View.OnClickListe
 
         btnGCD.setOnClickListener(new MyButtonClickListener(etA, etB, tvResult));
 
-//        btnExit.performClick() {
-//
-//        }
+//        btnExit.performClick();
     }
 
     public void getSum(View view) {
