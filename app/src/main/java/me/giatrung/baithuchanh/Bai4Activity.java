@@ -9,6 +9,8 @@ import android.widget.EditText;
 
 public class Bai4Activity extends AppCompatActivity {
 
+    EditText etF, etC;
+    Button btnToC, btnToF, btnClear;
     double f, c, res;
 
     @Override
@@ -16,11 +18,11 @@ public class Bai4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bai4);
 
-        EditText etF = (EditText) findViewById(R.id.et_f);
-        EditText etC = (EditText) findViewById(R.id.et_c);
-        Button btnToC = (Button) findViewById(R.id.btn_to_c);
-        Button btnToF = (Button) findViewById(R.id.btn_to_f);
-        Button btnClear = (Button) findViewById(R.id.btn_clear);
+        etF = findViewById(R.id.et_f);
+        etC = findViewById(R.id.et_c);
+        btnToC = findViewById(R.id.btn_to_c);
+        btnToF = findViewById(R.id.btn_to_f);
+        btnClear = findViewById(R.id.btn_clear);
 
         btnToC.setOnClickListener(new View.OnClickListener() {
             @Override

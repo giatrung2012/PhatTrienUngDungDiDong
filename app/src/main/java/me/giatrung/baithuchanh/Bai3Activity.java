@@ -21,14 +21,14 @@ public class Bai3Activity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bai3);
 
-        etA = (EditText) findViewById(R.id.et_a);
-        etB = (EditText) findViewById(R.id.et_b);
-        tvResult = (TextView) findViewById(R.id.tv_result);
-        btnSubtract = (Button) findViewById(R.id.btn_subtract);
-        btnMultiply = (Button) findViewById(R.id.btn_multiply);
-        btnDivide = (Button) findViewById(R.id.btn_divide);
-        btnGCD = (Button) findViewById(R.id.btn_gcd);
-        btnExit = (Button) findViewById(R.id.btn_exit);
+        etA = findViewById(R.id.et_a);
+        etB = findViewById(R.id.et_b);
+        tvResult = findViewById(R.id.tv_result);
+        btnSubtract = findViewById(R.id.btn_subtract);
+        btnMultiply = findViewById(R.id.btn_multiply);
+        btnDivide = findViewById(R.id.btn_divide);
+        btnGCD = findViewById(R.id.btn_gcd);
+        btnExit = findViewById(R.id.btn_exit);
 
         btnMultiply.setOnClickListener(this);
         btnSubtract.setOnClickListener(new View.OnClickListener() {
@@ -52,7 +52,12 @@ public class Bai3Activity extends AppCompatActivity implements View.OnClickListe
 
         btnGCD.setOnClickListener(new MyButtonClickListener(etA, etB, tvResult));
 
-//        btnExit.performClick();
+        btnExit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     public void getSum(View view) {
