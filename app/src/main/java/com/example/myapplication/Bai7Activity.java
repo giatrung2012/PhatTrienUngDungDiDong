@@ -1,4 +1,4 @@
-package me.giatrung.baithuchanh;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

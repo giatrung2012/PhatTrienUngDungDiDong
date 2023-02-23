@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Bai Thuc Hanh</string>
+    <string name="app_name">My Application</string>
+    <string-array name="name_array">
+        <item>Tèo</item>
+        <item>Tý</item>
+        <item>Bin</item>
+        <item>Bo</item>
+    </string-array>
+    <string-array name="location_array">
+        <item>Hà Nội</item>
+        <item>Huế</item>
+        <item>Spa</item>
+        <item>Côn Sơn</item>
+        <item>Vũng Tàu</item>
+        <item>Đà Nẵng</item>
+    </string-array>
 </resources>

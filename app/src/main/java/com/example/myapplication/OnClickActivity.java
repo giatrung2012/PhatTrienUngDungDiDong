@@ -1,4 +1,4 @@
-package me.giatrung.baithuchanh;
+package com.example.myapplication;
 
 import android.os.Bundle;
 import android.view.View;
@@ -15,9 +15,9 @@ public class OnClickActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_on_click);
-//        setContentView(R.layout.activity_inline_anonymous_listener);
-//        setContentView(R.layout.activity_interface_on_click_listener);
+        setContentView(R.layout.view_on_click);
+//        setContentView(R.layout.view_inline_anonymous_listener);
+//        setContentView(R.layout.view_interface_on_click_listener);
 
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnLogout = (Button) findViewById(R.id.btnLogout);

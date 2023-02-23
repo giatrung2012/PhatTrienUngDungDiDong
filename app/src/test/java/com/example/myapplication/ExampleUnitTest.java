@@ -1,4 +1,4 @@
-package me.giatrung.baithuchanh;
+package com.example.myapplication;
 
 import org.junit.Test;
 
